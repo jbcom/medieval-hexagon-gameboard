@@ -9,7 +9,7 @@ domain: technical
 
 > **Canonical version:** [https://jonbogaty.com/declarative-hex-worlds/guides/public-api/](https://jonbogaty.com/declarative-hex-worlds/guides/public-api/)
 >
-> This file remains as scenario metadata for `src/scenario/catalog.ts`. The docs-site version is the human-facing canonical.
+> This file remains as scenario metadata for `src/scenario/catalog.ts`. The Sourcey version is the human-facing canonical.
 
 # Public API tier table
 

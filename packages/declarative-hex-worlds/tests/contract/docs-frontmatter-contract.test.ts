@@ -1,12 +1,8 @@
 /**
- * Docs-site frontmatter contract.
+ * Sourcey hand-authored Markdown frontmatter contract.
  *
- * Every hand-written Markdown page under `docs-site/src/content/docs/`
- * MUST carry frontmatter with `title:` and `description:`. Starlight
- * requires `title` (it renders the page title from it); `description`
- * powers the page `<meta name="description">` tag and the sidebar
- * autoindex tooltip. Missing frontmatter ships a publish-blocking
- * docs bug.
+ * Every hand-written Markdown page under `docs/content/site/` must carry
+ * title and description metadata for Sourcey's HTML and context exports.
  *
  * The typedoc-generated `reference/` tree is excluded — typedoc owns
  * those pages and emits its own metadata.
@@ -19,10 +15,8 @@ import { join, relative } from 'node:path';
 import { beforeAll, describe, expect, it } from 'vitest';
 import { findWorkspaceRoot } from '../setup/workspace-root';
 
-// docs-site lives at the WORKSPACE root (as packages/docs-site once adopted, or
-// docs-site/ at root pre-adoption) — resolve by workspace marker, not a fixed hop.
 const repoRoot = findWorkspaceRoot(import.meta.dirname);
-const docsRoot = join(repoRoot, 'packages/docs-site/src/content/docs');
+const docsRoot = join(repoRoot, 'docs/content/site');
 const REFERENCE_PREFIX = `${docsRoot}/reference`;
 
 function walkMarkdown(root: string): string[] {
@@ -42,8 +36,8 @@ const handWrittenFiles = existsSync(docsRoot)
   ? walkMarkdown(docsRoot).filter((file) => !file.startsWith(REFERENCE_PREFIX))
   : [];
 
-describe('docs-site frontmatter contract', () => {
-  it('packages/docs-site/src/content/docs exists', () => {
+describe('Sourcey docs frontmatter contract', () => {
+  it('docs/content/site exists', () => {
     expect(existsSync(docsRoot), `${docsRoot} missing`).toBe(true);
   });
 

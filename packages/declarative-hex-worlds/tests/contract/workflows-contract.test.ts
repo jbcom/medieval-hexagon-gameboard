@@ -106,8 +106,8 @@ describe('workflow contract', () => {
       ['pnpm exec tsx src/cli/cli.ts bootstrap --source github --out models'],
       // browser-free visual gate remains documented as a local/full visual command
       ['pnpm test:browser:free'],
-      // docs-site build (Pages artifact uploaded for cd.yml to deploy)
-      ['pnpm docs-site:build'],
+      // Sourcey build (Pages artifact uploaded for cd.yml to deploy)
+      ['pnpm docs:build'],
       ['actions/upload-pages-artifact'],
       // dep-review job
       ['fail-on-severity: high'],
@@ -136,6 +136,10 @@ describe('workflow contract', () => {
       ["if: ${{ vars.RUN_BROWSER_VISUALS"],
       // No silenced failures
       ['continue-on-error: true'],
+      // SonarCloud is bound through its GitHub integration. A CI scanner would
+      // duplicate automatic analysis and would require a repository secret.
+      ['SonarSource/sonarqube-scan-action'],
+      ['SONAR_TOKEN'],
     ])('excludes %s (post-vitest-migration)', (snippet) => {
       expect(read(files.ci)).not.toContain(snippet);
     });
@@ -169,6 +173,11 @@ describe('workflow contract', () => {
       ['actions/attest-build-provenance'],
       // CycloneDX SBOM (pinned devDependency, invoked via pnpm exec)
       ['cyclonedx-npm'],
+      // release-please owns release PR creation from trusted main pushes.
+      ['googleapis/release-please-action'],
+      ['token: $' + '{{ secrets.CI_GITHUB_TOKEN }}'],
+      ['config-file: release-please-config.json'],
+      ['manifest-file: .release-please-manifest.json'],
     ])('includes %s', (snippet) => {
       expect(read(files.release)).toContain(snippet);
     });
@@ -255,23 +264,14 @@ describe('workflow contract', () => {
     it.each([
       ["NODE_VERSION: '22'"],
       ['pnpm/action-setup'],
-      ['googleapis/release-please-action'],
-      // Same pattern as every other jbcom repo: release-please runs on the
-      // org-level CI_GITHUB_TOKEN PAT so its PRs trigger downstream
-      // workflows. The GitHub App token dance was rejected (PRD A5).
-      ['token: ${{ secrets.CI_GITHUB_TOKEN }}'],
-      ['config-file: release-please-config.json'],
-      ['manifest-file: .release-please-manifest.json'],
-      ['pnpm docs-site:build'],
+      ['pnpm docs:build'],
       ['actions/deploy-pages'],
     ])('includes %s', (snippet) => {
       expect(cdContent).toContain(snippet);
     });
 
-    it('does not gate release-please behind GitHub App credentials', () => {
-      expect(cdContent).not.toContain('actions/create-github-app-token');
-      expect(cdContent).not.toContain('RELEASE_PLEASE_APP_CLIENT_ID');
-      expect(cdContent).not.toContain('RELEASE_PLEASE_APP_PRIVATE_KEY');
+    it('keeps release-please out of deployment', () => {
+      expect(cdContent).not.toContain('release-please-action');
     });
   });
 
@@ -286,8 +286,7 @@ describe('workflow contract', () => {
       ["github.actor == 'dependabot[bot]'"],
       ["github.event.pull_request.user.login == 'dependabot[bot]'"],
       ['github.event.pull_request.head.repo.full_name == github.repository'],
-      ['gh pr review "$PR_URL" --approve'],
-      ['gh pr merge "$PR_URL" --auto --squash'],
+      ['gh pr merge "$PR_URL" --auto --merge'],
     ])('includes %s', (snippet) => {
       expect(automergeContent).toContain(snippet);
     });
@@ -299,6 +298,10 @@ describe('workflow contract', () => {
       ["github.event.pull_request.user.type == 'Bot'"],
     ])('excludes %s so release PRs stay a maintainer checkpoint', (snippet) => {
       expect(automergeContent).not.toContain(snippet);
+    });
+
+    it('does not create an approving review', () => {
+      expect(automergeContent).not.toContain('gh pr review');
     });
   });
 

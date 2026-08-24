@@ -30,7 +30,7 @@ Today's baseline (as of R4): the migrated `simple-rpg.ts` driver exercises 80+ A
 
 ## Non-goals
 
-- This is not a consumer example. Consumers learn from `docs-site/src/content/docs/features/` (PRD F-Gallery).
+- This is not a consumer example. Consumers learn from `docs/content/site/features/`.
 - This is not a benchmark. Benchmarks live at `tests/perf/`.
 - This is not a visual gallery. Visual snapshots live at `tests/browser/__screenshots__/`.
 

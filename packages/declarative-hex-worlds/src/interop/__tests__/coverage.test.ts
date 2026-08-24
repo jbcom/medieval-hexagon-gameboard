@@ -250,9 +250,25 @@ describe('release-readiness coverage', () => {
     expect(markdown).toContain('`pnpm test`');
     expect(markdown).toContain('`pnpm test:coverage:enforce`');
     expect(markdown).toContain('`pnpm test:browser:free`');
-    expect(markdown).toContain('`pnpm docs-site:build`');
+    expect(markdown).toContain('`pnpm docs:build`');
     expect(markdown).toContain('`npm pack --dry-run`');
     expect(markdown).toContain('`page-15-shipyard-harbors`');
+  });
+
+  it('escapes backslashes before table delimiters in report data', () => {
+    const packageChecks = createDefaultGameboardCoveragePackageChecks('passed').map((check) =>
+      check.command === 'pnpm test'
+        ? { ...check, summary: 'literal \\| must not create a second Markdown cell' }
+        : check
+    );
+    const report = summarizeGameboardCoverage({
+      packageChecks,
+      simpleRpgEvidence: createSimpleRpgEvidence(),
+    });
+
+    expect(renderGameboardCoverageMarkdown(report)).toContain(
+      '| passed | `pnpm test` | literal \\\\\\| must not create a second Markdown cell |'
+    );
   });
 });
 

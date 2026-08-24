@@ -344,7 +344,7 @@ export const GAMEBOARD_RELEASE_GATE_COMMANDS = [
   'pnpm test',
   'pnpm test:coverage:enforce',
   'pnpm test:browser:free',
-  'pnpm docs-site:build',
+  'pnpm docs:build',
   'npm pack --dry-run',
 ] as const;
 
@@ -355,7 +355,7 @@ export const GAMEBOARD_RELEASE_GATE_COMMANDS = [
 const GAMEBOARD_RELEASE_GATE_SUMMARIES: Readonly<
   Record<(typeof GAMEBOARD_RELEASE_GATE_COMMANDS)[number], string>
 > = {
-  'pnpm lint': 'Biome lint over src/, tests/, scripts/, and docs-site/.',
+  'pnpm lint': 'Biome lint over src/, tests/, scripts/, and the Sourcey docs workspace.',
   'pnpm typecheck':
     'Strict TypeScript validation for runtime, tests, scripts, and examples.',
   'pnpm build':
@@ -366,8 +366,8 @@ const GAMEBOARD_RELEASE_GATE_SUMMARIES: Readonly<
     'vitest with v8 coverage gated against the ratchet thresholds in vitest.coverage.shared.ts.',
   'pnpm test:browser:free':
     'vitest-browser FREE-pack visual snapshot suite against bootstrap-fetched KayKit GLTFs under Chromium.',
-  'pnpm docs-site:build':
-    'Astro Starlight docs site build — emits 1100+ pages, validates typedoc-generated reference + every hand-written guide.',
+  'pnpm docs:build':
+    'Sourcey docs build — generates compact TypeDoc module reference pages and validates every hand-written guide.',
   'npm pack --dry-run':
     'Release-time tarball dry run — emits the publish whitelist + asset inclusion bounds for the published package contract.',
 };
@@ -1002,5 +1002,11 @@ function countCheckStatus(
 }
 
 function markdownCell(value: string): string {
-  return value.replace(/\|/g, '\\|').replace(/\n/g, ' ');
+  // Escape the escape character before table delimiters. Otherwise a caller
+  // can supply `\\|`, which leaves a rendered Markdown table delimiter.
+  const backslash = String.fromCharCode(0x5c);
+  return value
+    .replaceAll(backslash, `${backslash}${backslash}`)
+    .replaceAll('|', `${backslash}|`)
+    .replaceAll('\n', ' ');
 }

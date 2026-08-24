@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/jbcom/declarative-hex-worlds/main/packages/docs-site/public/hero.png" alt="Declarative Hex Worlds" width="540">
+<img src="https://raw.githubusercontent.com/jbcom/declarative-hex-worlds/main/docs/content/site/assets/hero.webp" alt="Declarative Hex Worlds" width="540">
 
 # declarative-hex-worlds
 
@@ -131,7 +131,7 @@ The `/core` tier is the "declare + JSON + validate + hex math, bring-your-own ru
 | [Bindings + bundling](https://jonbogaty.com/declarative-hex-worlds/guides/bindings/) | [Determinism contract](https://jonbogaty.com/declarative-hex-worlds/guides/determinism/) | [Architecture](https://jonbogaty.com/declarative-hex-worlds/about/architecture/) |
 | [Testing](https://jonbogaty.com/declarative-hex-worlds/guides/testing/) | [Design rationale](https://jonbogaty.com/declarative-hex-worlds/about/design/) | [Deployment](https://jonbogaty.com/declarative-hex-worlds/about/deployment/) |
 
-**For AI agents** ([llms.txt standard](https://llmstxt.org)): [llms.txt](https://jonbogaty.com/declarative-hex-worlds/llms.txt) · [llms-small.txt](https://jonbogaty.com/declarative-hex-worlds/llms-small.txt) (guides, fits one context window) · [llms-full.txt](https://jonbogaty.com/declarative-hex-worlds/llms-full.txt) (guides + complete API reference). [AGENTS.md](https://github.com/jbcom/declarative-hex-worlds/blob/main/AGENTS.md) covers working *on* the repo.
+**For AI agents** ([llms.txt standard](https://llmstxt.org)): [llms.txt](https://jonbogaty.com/declarative-hex-worlds/llms.txt) · [llms-full.txt](https://jonbogaty.com/declarative-hex-worlds/llms-full.txt) (guides + complete API reference). [AGENTS.md](https://github.com/jbcom/declarative-hex-worlds/blob/main/AGENTS.md) covers working *on* the repo.
 
 ---
 

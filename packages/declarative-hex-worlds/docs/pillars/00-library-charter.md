@@ -90,8 +90,7 @@ open source package useful while preserving the local-only purchased workflow.
   screenshots. CI's coverage job runs the browser-free coverage harness after
   bootstrapping FREE models, while the full screenshot command remains a local
   rendering/API-change proof step.
-- `pnpm docs-site:build` validates the generated CLI reference and Astro
-  Starlight site.
+- `pnpm docs:build` validates the generated CLI reference and Sourcey site.
 - Release-time tarball, audit, SBOM, provenance, and publish checks live in
   `release.yml`, not the per-PR CI workflow.
 - `pnpm expectations` validates behavior-drift assertions for simulation
@@ -102,7 +101,7 @@ open source package useful while preserving the local-only purchased workflow.
   copy/paste-invalid shapes.
 - TypeDoc entry points are derived from every public TypeScript export surface;
   every entry point must carry top-level `@module` JSDoc, and the docs/API
-  contract tests plus `pnpm docs-site:build` must verify the public export map,
+  contract tests plus `pnpm docs:build` must verify the public export map,
   top-level module docs, and zero not-documented warnings before API docs are
   considered complete.
 - `tests/contract/workflows-contract.test.ts` validates the requested CI/CD,

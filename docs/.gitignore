@@ -1,0 +1,4 @@
+dist/
+.sourcey-validate/
+node_modules/
+content/site/reference/

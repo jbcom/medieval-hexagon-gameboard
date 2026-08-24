@@ -7,7 +7,7 @@
  * canvas context, using a tileset source to resolve each placement to a sprite
  * cell. Proving the same game renders through a second, non-three binding is the
  * whole point of the examples package — apples-to-apples, and each binding gets a
- * real render example the docs site can demonstrate.
+ * real render example the documentation can demonstrate.
  *
  * @module
  */
@@ -36,7 +36,7 @@ export const CANVAS2D_EXAMPLE_TILE_NAMES = [
 
 /**
  * Every sheet URL the example manifest references, in a stable order. A host that
- * can't serve the baked PNGs (e.g. the docs-site island, which draws a procedural
+ * can't serve the baked PNGs (e.g. the documentation demo, which draws a procedural
  * sheet so it needs zero downloaded art) maps each of these to its own image.
  */
 export const CANVAS2D_EXAMPLE_SHEET_URLS: readonly string[] =

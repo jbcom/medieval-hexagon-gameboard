@@ -1,0 +1,76 @@
+---
+title: Testing
+description: The unit + browser + e2e test trinity, coverage gates, SimpleRPG-as-driver, perf benches.
+sidebar:
+  order: 5
+---
+
+## The test trinity
+
+Three vitest harnesses + one perf harness. Coverage from all of them feeds into a merged report (PRD R6).
+
+| Harness | Config | Includes | Cadence |
+|---|---|---|---|
+| **Unit** | `vitest.config.ts` | `src/**/__tests__/*.test.ts`, `tests/unit/**/*.test.ts`, `tests/integration/**/*.test.ts` | every PR (`pnpm test`) |
+| **Browser FREE** | `vitest.browser.free.config.ts` | `tests/browser/{free-visual,simple-rpg-visual,react-bindings}.test.ts`, `tests/browser/feature-gallery.spec.ts`, harness smoke | required merged coverage job on every PR; full screenshot command is local proof |
+| **Browser EXTRA** | `vitest.browser.extra.config.ts` | `tests/browser/extra-visual.test.ts` | local-only with `HEX_WORLDS_ENABLE_EXTRA=1` |
+| **E2E local-assets** | `vitest.browser.local-assets.config.ts` | `tests/e2e/local-assets/**/*.test.ts` | local-only with `HEX_WORLDS_ENABLE_LOCAL_ASSETS=1` |
+| **SimpleRPG e2e (GitHub)** | `vitest.simple-rpg-e2e.config.ts` | `tests/e2e/simple-rpg-ci.test.ts` | scheduled CI with `HEX_WORLDS_E2E_GITHUB=1` |
+| **SimpleRPG e2e (local)** | `vitest.simple-rpg-e2e.config.ts` | `tests/e2e/simple-rpg-local-extra.test.ts` | local with `HEX_WORLDS_LOCAL_REFERENCES=1` |
+| **Perf bench** | n/a — direct vitest bench | `tests/perf/*.bench.ts` | local-only, non-blocking |
+
+## Coverage gates
+
+`vitest.coverage.shared.ts` exports `COVERAGE_THRESHOLDS` at the current floor. PRD A8 ratchets these toward 100/100/100/100 via Epic E0-E10; each commit that closes a coverage gap raises the floor in the same commit.
+
+CI's required `Coverage` job bootstraps FREE models, collects unit coverage, collects browser-free coverage, then runs `pnpm coverage:merge:enforce`; regressions block merge.
+
+To merge harness reports locally:
+
+```bash
+HEX_WORLDS_COVERAGE=1 pnpm coverage:all
+open coverage/merged/lcov-report/index.html
+```
+
+## SimpleRPG: the coverage driver
+
+`tests/integration/simple-rpg/simple-rpg.ts` is a 1,005-line driver that exercises 80+ public APIs synchronously. Its purpose isn't gameplay — it's coverage. Read the [SimpleRPG README](https://github.com/jbcom/declarative-hex-worlds/tree/main/tests/simple-rpg/README.md) for the API matrix.
+
+Three entry-point functions matter:
+
+- `runSimpleRpgUsageExample()` — full scenario → simulation → snapshot path; returns a `SimpleRpgUsageSummary` with every metric the coverage ledger needs.
+- `summarizeSimpleRpgGuidePublicApiExercises()` — pure-data coverage map; safe to call repeatedly (no koota worlds).
+- `runSimpleRpgExecutableGuideApiSmoke()` — executable smoke of every guide-page helper API.
+
+The CLI's `coverage` subcommand consumes these to emit `docs/release-readiness.json` + Markdown ledgers.
+
+## Perf benches
+
+`tests/perf/warm-start.bench.ts` (PRD A3b) tracks the cost of blueprint → board → koota runtime → facade snapshot. Run:
+
+```bash
+pnpm bench:warm-start
+```
+
+Baseline as of 2026-05-26: ~27 Hz / 37 ms mean.
+
+Add more benches to `tests/perf/` as PRD B/D-series perf work lands. The bench harness is opt-in (not in default `pnpm test`).
+
+## Visual regression
+
+`tests/browser/__screenshots__/` holds committed PNG snapshots that vitest-browser compares against every render. Drift fails the build until either the diff is accepted (new snapshot committed) or fixed.
+
+The screenshot assertion script is `tests/scripts/assert-screenshots.ts`; local visual commands call it via `pnpm test:screenshots:free` + `:extra` + `:local-assets`.
+
+## What CI actually runs
+
+See `.github/workflows/ci.yml`. The chain (post-PRD A9 install-once):
+
+1. `install` job — `pnpm install --frozen-lockfile` once, uploads `node_modules.tar.zst` artifact.
+2. `check` matrix — `lint`, `typecheck`, `build`, `test` (each downloads + restores the artifact).
+3. `coverage` — bootstraps FREE models, collects unit + browser-free coverage, then enforces the merged ratchet.
+4. `docs` — Sourcey build with generated CLI and TypeDoc reference.
+5. `dependency-review` — fail-on-severity: high.
+6. `semgrep` — OWASP Top 10 + Node.js SAST.
+
+Local proof uses `pnpm verify` for the fast source gates and `pnpm coverage:all:enforce` for the CI-shaped merged coverage gate.

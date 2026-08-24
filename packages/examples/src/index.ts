@@ -6,7 +6,7 @@
  * public-API) is rendered by each binding example: `./three` renders it through
  * `declarative-hex-worlds/three`, `./canvas2d` through `declarative-hex-worlds/canvas2d`.
  * This proves each binding on the SAME game (apples-to-apples), gives each binding a
- * real render test, and is the source of the docs-site live islands. Not published.
+ * real render test and feeds the documentation screenshots. Not published.
  *
  * @module
  */

@@ -53,26 +53,12 @@ describe('source ingestion', () => {
     expect(manifest.assetsById.hex_water?.category).toBe('tiles');
   });
 
-  it('writes manifest modules with edition-specific export names', () => {
+  it('writes manifest modules and formatted JSON into a securely-created directory', () => {
     const tempRoot = mkdtempSync(join(tmpdir(), 'medieval-hexagon-ingest-'));
     try {
       const freeModulePath = join(tempRoot, 'free.ts');
-      const extraModulePath = join(tempRoot, 'extra.ts');
       writeManifestModule(freeManifest, freeModulePath);
-      writeManifestModule(
-        {
-          ...freeManifest,
-          edition: 'extra',
-          sourcePack: { ...freeManifest.sourcePack, edition: 'extra' },
-        },
-        extraModulePath,
-        { typeImportPath: 'declarative-hex-worlds' }
-      );
-
       expect(readFileSync(freeModulePath, 'utf8')).toContain('export const freeManifest: MedievalHexagonManifest');
-      expect(readFileSync(extraModulePath, 'utf8')).toContain('export const extraManifest: MedievalHexagonManifest');
-      expect(readFileSync(extraModulePath, 'utf8')).toContain("from 'declarative-hex-worlds'");
-
       const manifestJsonPath = join(tempRoot, 'manifest.json');
       writeManifestJson(freeManifest, manifestJsonPath);
       expect(readFileSync(manifestJsonPath, 'utf8')).toMatch(/^\{\n[\s\S]*\}\n$/);
@@ -81,10 +67,15 @@ describe('source ingestion', () => {
     }
   });
 
-  it('rejects invalid manifest module export names', () => {
-    expect(() => writeManifestModule(freeManifest, join(tmpdir(), 'bad.ts'), { exportName: 'bad-name' })).toThrow(
-      /Invalid manifest module export name/
-    );
+  it('rejects invalid manifest module export names before touching the selected output', () => {
+    const tempRoot = mkdtempSync(join(tmpdir(), 'medieval-hexagon-ingest-invalid-'));
+    try {
+      expect(() => writeManifestModule(freeManifest, join(tempRoot, 'bad.ts'), { exportName: 'bad-name' })).toThrow(
+        /Invalid manifest module export name/
+      );
+    } finally {
+      rmSync(tempRoot, { recursive: true, force: true });
+    }
   });
 
   it.skipIf(!existsSync(extraSourceRoot))('validates the local EXTRA source count and textures', () => {

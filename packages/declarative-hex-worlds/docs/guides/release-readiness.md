@@ -10,14 +10,14 @@ pnpm coverage:ledger
 
 ## Summary
 
-- Status: passed
+- Status: warning
 - Guide pages: 19/19
 - Guide scenarios: 19
 - Guide assets: 404 unique (221 FREE, 183 EXTRA), 1108 page-level occurrences
 - Public API surfaces: 74
 - Public roles: 12
-- Visual artifacts: 60 available, 0 missing, 0 skipped
-- Local references: 4 available, 0 missing, 0 skipped
+- Visual artifacts: 52 available, 0 missing, 0 skipped
+- Local references: 0 available, 4 missing, 0 skipped
 - Release checks: 8 passed, 0 failed, 0 not run, 0 skipped
 - SimpleRPG API evidence: 74/74 represented, 40 directly executed, 9 active mode(s)
 
@@ -132,28 +132,33 @@ pnpm coverage:ledger
 
 ## Gaps
 
-- None
+| Severity | Code | Subject | Message |
+| --- | --- | --- | --- |
+| warning | `reference.missing` | references/KayKit_Medieval_Hexagon_Pack_1.0_FREE | KayKit Medieval Hexagon FREE is unavailable, so local-only visual coverage cannot run. |
+| warning | `reference.missing` | references/KayKit_Medieval_Hexagon_Pack_1.0_EXTRA | KayKit Medieval Hexagon EXTRA is unavailable, so local-only visual coverage cannot run. |
+| warning | `reference.missing` | references/kenney_castle-kit | Kenney Castle Kit is unavailable, so local-only visual coverage cannot run. |
+| warning | `reference.missing` | references/KayKit_Adventurers_2.0_FREE | KayKit Adventurers FREE is unavailable, so local-only visual coverage cannot run. |
 
 ## Local References
 
 | Status | Reference | Path | Purpose |
 | --- | --- | --- | --- |
-| available | KayKit Medieval Hexagon FREE | `references/KayKit_Medieval_Hexagon_Pack_1.0_FREE` | FREE source pack for guide extraction, generated assets, and manifest audits. |
-| available | KayKit Medieval Hexagon EXTRA | `references/KayKit_Medieval_Hexagon_Pack_1.0_EXTRA` | Purchased local-only EXTRA pack for category and guide visual coverage. |
-| available | Kenney Castle Kit | `references/kenney_castle-kit` | Third-party compatibility fixture for non-hex props, structures, and warnings. |
-| available | KayKit Adventurers FREE | `references/KayKit_Adventurers_2.0_FREE` | Animated actor fixture for facing, spawn, and SimpleRPG local-asset coverage. |
+| missing | KayKit Medieval Hexagon FREE | `references/KayKit_Medieval_Hexagon_Pack_1.0_FREE` | FREE source pack for guide extraction, generated assets, and manifest audits. |
+| missing | KayKit Medieval Hexagon EXTRA | `references/KayKit_Medieval_Hexagon_Pack_1.0_EXTRA` | Purchased local-only EXTRA pack for category and guide visual coverage. |
+| missing | Kenney Castle Kit | `references/kenney_castle-kit` | Third-party compatibility fixture for non-hex props, structures, and warnings. |
+| missing | KayKit Adventurers FREE | `references/KayKit_Adventurers_2.0_FREE` | Animated actor fixture for facing, spawn, and SimpleRPG local-asset coverage. |
 
 ## Release Checks
 
 | Status | Command | Summary |
 | --- | --- | --- |
-| passed | `pnpm lint` | Biome lint over src/, tests/, scripts/, and docs-site/. |
+| passed | `pnpm lint` | Biome lint over src/, tests/, scripts/, and the Sourcey docs workspace. |
 | passed | `pnpm typecheck` | Strict TypeScript validation for runtime, tests, scripts, and examples. |
 | passed | `pnpm build` | tsup multi-entry ESM build — chunks + DTS + CLI shebang + asset copies. |
 | passed | `pnpm test` | Full vitest suite — unit + integration + contract specs (the migrated former scripts/audit-*.ts checks). |
 | passed | `pnpm test:coverage:enforce` | vitest with v8 coverage gated against the ratchet thresholds in vitest.coverage.shared.ts. |
 | passed | `pnpm test:browser:free` | vitest-browser FREE-pack visual snapshot suite against bootstrap-fetched KayKit GLTFs under Chromium. |
-| passed | `pnpm docs-site:build` | Astro Starlight docs site build — emits 1100+ pages, validates typedoc-generated reference + every hand-written guide. |
+| passed | `pnpm docs:build` | Sourcey docs build — generates compact TypeDoc module reference pages and validates every hand-written guide. |
 | passed | `npm pack --dry-run` | Release-time tarball dry run — emits the publish whitelist + asset inclusion bounds for the published package contract. |
 
 ## Visual Artifacts
@@ -187,9 +192,6 @@ pnpm coverage:ledger
 | available | showcase | `docs/showcases/free-guide-rivers-all-labels-rotations-water-waterless.png` | - |
 | available | showcase | `docs/showcases/free-guide-roads-all-labels-rotations.png` | - |
 | available | showcase | `docs/showcases/free-guide-scenarios-by-extracted-page.png` | - |
-| available | showcase | `docs/showcases/simple-rpg-fixed-completed.png` | - |
-| available | showcase | `docs/showcases/simple-rpg-local-third-party-assets.png` | - |
-| available | showcase | `docs/showcases/simple-rpg-seeded-completed.png` | - |
 | available | guide | `NOTICE.md` | 19 |
 | available | guide | `tests/browser/__screenshots__/extra-blueprint-biome-transition-showcase.png` | 9, 11, 13 |
 | available | screenshot | `tests/browser/__screenshots__/extra-guide-assets-by-public-role.png` | - |
@@ -215,11 +217,6 @@ pnpm coverage:ledger
 | available | screenshot | `tests/browser/__screenshots__/free-guide-source-pages.png` | - |
 | available | guide | `tests/browser/__screenshots__/free-seeded-gameboard.png` | 9 |
 | available | guide | `tests/browser/__screenshots__/free-seeded-hex-gameboard.png` | 10 |
-| available | guide | `tests/browser/__screenshots__/simple-rpg-fixed-completed.png` | 9 |
-| available | guide | `tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png` | 14 |
-| available | screenshot | `tests/browser/__screenshots__/simple-rpg-packaged-scenario.png` | - |
-| available | guide | `tests/browser/__screenshots__/simple-rpg-seeded-completed.png` | 18 |
-| available | screenshot | `tests/browser/__screenshots__/simple-rpg-simulation-report.png` | - |
 
 ## Guide Pages
 
@@ -233,16 +230,16 @@ pnpm coverage:ledger
 | 6 | `page-06-nature-usage` | free | 42 | 9 | 2 | 2 | available `docs/assets/kaykit-guide/pages/page-06.png` |
 | 7 | `page-07-water-usage` | free | 44 | 18 | 2 | 3 | available `docs/assets/kaykit-guide/pages/page-07.png` |
 | 8 | `page-08-taller-hex-tiles` | free | 3 | 6 | 2 | 3 | available `docs/assets/kaykit-guide/pages/page-08.png` |
-| 9 | `page-09-world-design-example` | free | 61 | 21 | 2 | 5 | available `docs/assets/kaykit-guide/pages/page-09.png` |
+| 9 | `page-09-world-design-example` | free | 61 | 21 | 2 | 4 | available `docs/assets/kaykit-guide/pages/page-09.png` |
 | 10 | `page-10-floating-islands` | free | 45 | 12 | 2 | 2 | available `docs/assets/kaykit-guide/pages/page-10.png` |
 | 11 | `page-11-biomes` | extra | 1 | 6 | 2 | 3 | available `docs/assets/kaykit-guide/pages/page-11.png` |
 | 12 | `page-12-alternate-textures` | extra | 1 | 7 | 2 | 2 | available `docs/assets/kaykit-guide/pages/page-12.png` |
 | 13 | `page-13-transition-tiles` | extra | 1 | 8 | 2 | 3 | available `docs/assets/kaykit-guide/pages/page-13.png` |
-| 14 | `page-14-units` | extra | 137 | 5 | 2 | 2 | available `docs/assets/kaykit-guide/pages/page-14.png` |
+| 14 | `page-14-units` | extra | 137 | 5 | 2 | 1 | available `docs/assets/kaykit-guide/pages/page-14.png` |
 | 15 | `page-15-shipyard-harbors` | mixed | 25 | 13 | 2 | 2 | available `docs/assets/kaykit-guide/pages/page-15.png` |
 | 16 | `page-16-stables-and-horses` | extra | 155 | 16 | 2 | 2 | available `docs/assets/kaykit-guide/pages/page-16.png` |
 | 17 | `page-17-workshop-and-siege` | extra | 170 | 19 | 2 | 2 | available `docs/assets/kaykit-guide/pages/page-17.png` |
-| 18 | `page-18-unit-combinations` | extra | 137 | 6 | 2 | 2 | available `docs/assets/kaykit-guide/pages/page-18.png` |
+| 18 | `page-18-unit-combinations` | extra | 137 | 6 | 2 | 1 | available `docs/assets/kaykit-guide/pages/page-18.png` |
 | 19 | `page-19-supporters-and-attribution` | reference | 0 | 3 | 3 | 2 | available `docs/assets/kaykit-guide/pages/page-19.png` |
 
 ## Final Commands
@@ -253,5 +250,5 @@ pnpm coverage:ledger
 - `pnpm test`
 - `pnpm test:coverage:enforce`
 - `pnpm test:browser:free`
-- `pnpm docs-site:build`
+- `pnpm docs:build`
 - `npm pack --dry-run`

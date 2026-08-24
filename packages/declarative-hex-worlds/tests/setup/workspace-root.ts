@@ -2,7 +2,7 @@
  * Resolve the workspace root (the directory containing `pnpm-workspace.yaml`)
  * by walking up from a starting directory. Contract tests that assert
  * repo-level artifacts (`.github/`, release-please config/manifest, the
- * `packages/docs-site` app) live INSIDE the published package
+ * private docs app) live OUTSIDE the published package
  * (`packages/declarative-hex-worlds/`), so a fixed number of `..` hops is
  * brittle — this walks up until it finds the workspace marker instead.
  *

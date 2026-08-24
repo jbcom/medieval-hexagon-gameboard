@@ -83,12 +83,10 @@ jobs:
           NODE_OPTIONS: --max-old-space-size=6144
         run: pnpm ${{ matrix.task }}
 
-  docs-site:
-    # Astro Starlight build. packages/docs-site is a WORKSPACE member now, so a
-    # single workspace install covers it (its typedoc plugins hoist via the root
-    # .npmrc). Artifact uploaded so cd.yml's deploy job (on main push) can pick
-    # it up.
-    name: Docs Site Build
+  docs:
+    # Sourcey is the sole production renderer. This safe pull_request job builds
+    # from the checked-out change but never deploys or receives credentials.
+    name: Sourcey Docs Build
     needs: [check]
     runs-on: ubuntu-latest
     steps:
@@ -103,23 +101,18 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'pnpm'
 
-      - name: Install workspace dependencies (covers docs-site + the library)
+      - name: Install workspace dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build docs site
-        # docs-site:build now builds the library FIRST — the RFC0-3 binding-demo
-        # islands import declarative-hex-worlds/* subpaths at runtime, which resolve
-        # to dist/. 6GB heap for tsup's DTS bundler (same as the check/examples jobs).
+      - name: Build Sourcey documentation
         env:
           NODE_OPTIONS: --max-old-space-size=6144
-          ASTRO_BASE: /declarative-hex-worlds/
-          ASTRO_SITE: https://jonbogaty.com/declarative-hex-worlds
-        run: pnpm docs-site:build
+        run: pnpm docs:build
 
-      - name: Upload docs-site artifact (for cd.yml Pages deploy)
+      - name: Upload Sourcey Pages artifact
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
-          path: packages/docs-site/dist
+          path: docs/dist
 
   examples:
     # The in-repo examples consume declarative-hex-worlds as REAL consumers (by
@@ -283,7 +276,7 @@ jobs:
       # a pinned packageManager, overrides for known CVEs, plus
       # minimumReleaseAge + onlyBuiltDependencies in the workspace file (pnpm 9
       # reads those from pnpm-workspace.yaml, not .npmrc — our .npmrc carries
-      # ONLY hoist-pattern lines for docs-site's typedoc plugin resolution, so
+      # ONLY hoist-pattern lines for Sourcey's TypeDoc plugin resolution, so
       # the minimum-release-age rule firing on it is a false positive; the real
       # setting lives in the workspace file). The remaining flags don't apply to
       # the pinned toolchain.
@@ -298,4 +291,4 @@ jobs:
             --exclude='*.html' \
             --exclude='pnpm-workspace.yaml' \
             --exclude='.npmrc' \
-            --exclude='node_modules' .
+          --exclude='node_modules' .

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 72" role="img" aria-labelledby="title">
+  <title>Declarative Hex Worlds</title>
+  <path fill="#8b5e34" d="m36 4 29 17v34L36 72 7 55V21Zm0 12L18 27v22l18 11 18-11V27Z"/>
+  <path fill="#b98247" d="m36 16 18 11v22L36 60Z"/>
+  <path fill="#f7f0df" d="m36 28 8 5v10l-8 5-8-5V33Z"/>
+  <text x="82" y="32" fill="#2a2118" font-family="Georgia, serif" font-size="22" font-weight="700">Declarative</text>
+  <text x="82" y="56" fill="#5d3a1e" font-family="Georgia, serif" font-size="22" font-weight="700">Hex Worlds</text>
+</svg>

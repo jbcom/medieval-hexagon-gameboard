@@ -6,7 +6,7 @@
  * surface, inside a consumer-owned R3F `<Canvas>` (per the Canvas-ownership design
  * — the game owns the Canvas/camera/lights; dhw owns the board composition + render
  * bridge). This is what proves the element layer works as a real game's board, and
- * is the source of the docs-site live island + visual-verification showcases.
+ * feeds documentation screenshots and visual-verification showcases.
  *
  * @module
  */

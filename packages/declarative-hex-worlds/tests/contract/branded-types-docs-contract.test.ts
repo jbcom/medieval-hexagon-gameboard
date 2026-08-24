@@ -11,13 +11,13 @@ import { join, relative, resolve } from 'node:path';
 import { beforeAll, describe, expect, it } from 'vitest';
 import { findWorkspaceRoot } from '../setup/workspace-root';
 
-// `src/` and the library's own `docs/` are PACKAGE-level; `docs-site/` is at
-// the WORKSPACE root — resolve each guide path against the correct root.
+// `src/` and legacy `docs/` are PACKAGE-level; the canonical Sourcey guide is
+// at the WORKSPACE root — resolve each guide path against the correct root.
 const packageRoot = resolve(import.meta.dirname, '..', '..');
 const workspaceRoot = findWorkspaceRoot(import.meta.dirname);
 
 const GUIDE_PATHS = [
-  { label: 'packages/docs-site/src/content/docs/guides/public-api.md', root: workspaceRoot },
+  { label: 'docs/content/site/guides/public-api.md', root: workspaceRoot },
   { label: 'docs/guides/public-api.md', root: packageRoot },
 ] as const;
 

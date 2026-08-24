@@ -79,7 +79,7 @@ The library is the API surface; the asset tree is consumer-owned. SimpleRPG (tes
 
 ## Notes
 
-- This is a single-package repository at root (R1 de-monorepo dropped `packages/` + `apps/`). 20 domain sub-packages live under `src/` with barrel-only cross-domain imports (Biome `noRestrictedImports` enforces).
-- Docs site: Astro Starlight at `docs-site/` (F-Site-1 through F-Site-12). The legacy vitepress at `docs/.vitepress/` was deleted in F-Site-12; the content trees under `docs/` (api/, guides/, pillars/, PRD/, showcases/) stay until F-Audit-7 migrates them into docs-site/.
+- This is a pnpm workspace. The published library is `packages/declarative-hex-worlds/`; examples and `docs/` are private workspace projects. Its domain subpackages use barrel-only cross-domain imports (Biome `noRestrictedImports` enforces).
+- Docs site: Sourcey at `docs/`. It generates the CLI page and compact TypeDoc module reference before every build; package-level `packages/declarative-hex-worlds/docs/` remains legacy metadata consumed by catalog and contract tests.
 - `references/KayKit_Medieval_Hexagon_Pack_1.0_FREE/` is the asset source-of-truth for `manifest/free` regeneration locally; the published tarball ships only the manifest JSON (Phase RB bootstrap-not-bundle).
 - Coverage gates live in `.claude/gates.json` (commit-gate.mjs) and in `vitest.coverage.shared.ts` (CI thresholds, PRD A8). Visual checks: vitest-browser screenshots in `tests/browser/__screenshots__/`.

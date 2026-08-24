@@ -13,7 +13,7 @@ The non-negotiables for `declarative-hex-worlds`. Pulled from PRD §6. Authorita
 7. **`splitting: true` stays on** in the tsup build; trait identity test (PRD E4) keeps it honest.
 8. **ESM only, Node ≥22, `sideEffects: false`.**
 9. **Every CI gate runs locally via `pnpm verify`.**
-10. **Public API tier table** in `docs-site/src/content/docs/reference/` is source-of-truth; `package.json#exports` mirrors it.
+10. **Public API tier table** in `docs/content/site/reference/` is source-of-truth; `package.json#exports` mirrors it.
 
 ## Process
 

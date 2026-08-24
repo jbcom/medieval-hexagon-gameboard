@@ -4,7 +4,7 @@
  * Renders the SimpleRPG fixed scenario into a Chromium viewport via the
  * library's three.js bindings and writes screenshots to
  * `tests/browser/__screenshots__/feature-gallery/<scenario>.png`. The
- * docs-site reads the same path at build time so the screenshot embedded
+ * the documentation build reads the same path so the screenshot embedded
  * in `features/<name>.md` always reflects live SimpleRPG output.
  *
  * Runs under `vitest.browser.free.config.ts`. The screenshot files are

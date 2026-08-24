@@ -24,11 +24,11 @@ describe('scripts/generate-cli-reference', () => {
   });
 
   it('resolves the default repo root (workspace root) and CLI reference docs path', () => {
-    // docs-site/ lives at the workspace root, so defaultRepoRoot walks up to
+    // docs/ lives at the workspace root, so defaultRepoRoot walks up to
     // pnpm-workspace.yaml — not the package root.
     expect(defaultRepoRoot()).toBe(findWorkspaceRoot(import.meta.dirname));
     expect(cliReferenceOutputPath('/repo')).toBe(
-      '/repo/packages/docs-site/src/content/docs/guides/cli-reference.md'
+      '/repo/docs/content/site/guides/cli-reference.md'
     );
   });
 
@@ -64,7 +64,7 @@ describe('scripts/generate-cli-reference', () => {
       // (the CLI-help exec cwd, where src/cli/cli.ts + tsx resolve).
       repoRoot: '/repo',
       packageRoot: '/repo/packages/declarative-hex-worlds',
-      outputPath: '/repo/docs-site/src/content/docs/guides/cli-reference.md',
+      outputPath: '/repo/docs/content/site/guides/cli-reference.md',
       execFileSyncImpl: (file, args, options) => {
         execCalls.push({ file, args, options });
         return 'Usage: generated help\n';
@@ -84,14 +84,14 @@ describe('scripts/generate-cli-reference', () => {
     ]);
     expect(writes).toEqual([
       {
-        path: '/repo/docs-site/src/content/docs/guides/cli-reference.md',
+        path: '/repo/docs/content/site/guides/cli-reference.md',
         contents: result.contents,
         encoding: 'utf8',
       },
     ]);
-    expect(result.outputPath).toBe('/repo/docs-site/src/content/docs/guides/cli-reference.md');
+    expect(result.outputPath).toBe('/repo/docs/content/site/guides/cli-reference.md');
     expect(result.contents).toContain('Usage: generated help');
-    expect(logs).toEqual(['Wrote /repo/docs-site/src/content/docs/guides/cli-reference.md']);
+    expect(logs).toEqual(['Wrote /repo/docs/content/site/guides/cli-reference.md']);
   });
 
   it('detects direct script execution from argv and module URL', () => {
