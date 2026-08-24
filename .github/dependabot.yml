@@ -10,7 +10,6 @@ updates:
     # Security updates bypass cooldown, so CVE fixes are not delayed.
     cooldown:
       default-days: 7
-      semver-major-days: 14
     commit-message:
       prefix: "ci"
     groups:
