@@ -109,6 +109,8 @@ describe('workflow contract', () => {
       // Sourcey build (Pages artifact uploaded for cd.yml to deploy)
       ['pnpm docs:build'],
       ['actions/upload-pages-artifact'],
+      ['SonarSource/sonarqube-scan-action'],
+      ['SonarQube Code Analysis'],
       // dep-review job
       ['fail-on-severity: high'],
     ])('includes %s', (snippet) => {
