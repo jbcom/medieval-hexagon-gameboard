@@ -276,7 +276,7 @@ jobs:
       # a pinned packageManager, overrides for known CVEs, plus
       # minimumReleaseAge + onlyBuiltDependencies in the workspace file (pnpm 9
       # reads those from pnpm-workspace.yaml, not .npmrc — our .npmrc carries
-      # ONLY hoist-pattern lines for docs-site's typedoc plugin resolution, so
+      # ONLY hoist-pattern lines for Sourcey's TypeDoc plugin resolution, so
       # the minimum-release-age rule firing on it is a false positive; the real
       # setting lives in the workspace file). The remaining flags don't apply to
       # the pinned toolchain.

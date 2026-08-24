@@ -6,7 +6,7 @@
  * KayKit GLTF asset tree is not bundled. Consumers run this bootstrap step
  * after install to materialize the asset tree into their app's asset root.
  *
- * The end-user workflow + on-disk layout reference live in the docs-site
+ * The end-user workflow + on-disk layout reference live in the Sourcey docs
  * guides directory under the consumer-facing documentation site.
  *
  * @module

@@ -1,7 +1,7 @@
 /**
  * `docs/pillars/*.md` contract — the internal-team architecture docs
  * referenced from `src/scenario/catalog.ts` (load-bearing) and from
- * docs-site content. Each pillar carries structured frontmatter that
+ * Sourcey content. Each pillar carries structured frontmatter that
  * the audit pins:
  *
  *   - `status`: draft | implemented | verified

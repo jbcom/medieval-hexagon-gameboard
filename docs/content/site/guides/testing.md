@@ -69,7 +69,7 @@ See `.github/workflows/ci.yml`. The chain (post-PRD A9 install-once):
 1. `install` job — `pnpm install --frozen-lockfile` once, uploads `node_modules.tar.zst` artifact.
 2. `check` matrix — `lint`, `typecheck`, `build`, `test` (each downloads + restores the artifact).
 3. `coverage` — bootstraps FREE models, collects unit + browser-free coverage, then enforces the merged ratchet.
-4. `docs-site` — Astro Starlight build with generated CLI reference.
+4. `docs` — Sourcey build with generated CLI and TypeDoc reference.
 5. `dependency-review` — fail-on-severity: high.
 6. `semgrep` — OWASP Top 10 + Node.js SAST.
 

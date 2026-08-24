@@ -3,7 +3,7 @@ packages:
   - "docs"
 
 # Shared dependency versions — single source of truth across workspace packages
-# (the library + simple-rpg + docs-site). Reference with "catalog:" in a
+# (the library + simple-rpg + Sourcey docs). Reference with "catalog:" in a
 # package's dependencies. Keeps SimpleRPG's toolchain locked to the library's.
 catalog:
   "@types/node": "^26.1.2"

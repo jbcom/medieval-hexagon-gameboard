@@ -6,7 +6,7 @@
  * The dynamic half — spawning typedoc with `--validation.notDocumented`
  * to gate on un-documented exports — was removed entirely because the
  * `Docs Site Build` CI job already exercises typedoc end-to-end (the
- * docs-site build invokes `starlight-typedoc` which runs typedoc with
+ * Sourcey build invokes TypeDoc with
  * the project's own config). A duplicate per-PR typedoc spawn was 20+
  * seconds of wall time for zero additional signal.
  */

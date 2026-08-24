@@ -23,7 +23,7 @@
     "coverage:all:enforce": "pnpm --filter declarative-hex-worlds coverage:all:enforce",
     "expectations": "pnpm --filter declarative-hex-worlds expectations",
     "cli": "pnpm --filter declarative-hex-worlds cli",
-    "docs:preview": "pnpm --filter @declarative-hex-worlds/docs exec sourcey dev"
+  "docs:preview": "pnpm docs:dev"
   },
   "pnpm": {
     "overrides": {

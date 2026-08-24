@@ -4,7 +4,7 @@
  * Runs in the default `pnpm test` loop. No browser, no bootstrap, no
  * network. Exercises the SimpleRPG driver's full synchronous path through
  * the library's public API and asserts the shapes that downstream
- * consumers (the CLI's coverage gate, the docs-site SimpleRPG evidence
+ * consumers (the CLI's coverage gate, the Sourcey SimpleRPG evidence
  * matrix, the visual gallery) rely on.
  *
  * The two browser-side e2e variants (`tests/e2e/simple-rpg-ci.test.ts` +

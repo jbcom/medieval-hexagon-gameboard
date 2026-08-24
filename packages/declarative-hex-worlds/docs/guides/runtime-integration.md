@@ -2,7 +2,7 @@
 
 > **Canonical version:** [https://jonbogaty.com/declarative-hex-worlds/guides/runtime-integration/](https://jonbogaty.com/declarative-hex-worlds/guides/runtime-integration/)
 >
-> This file remains as scenario metadata for `src/scenario/catalog.ts`. The docs-site version is the human-facing canonical.
+> This file remains as scenario metadata for `src/scenario/catalog.ts`. The Sourcey version is the human-facing canonical.
 
 # Runtime Integration Guide
 

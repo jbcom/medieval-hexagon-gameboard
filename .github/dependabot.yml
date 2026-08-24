@@ -54,35 +54,3 @@ updates:
       npm-security-updates:
         applies-to: security-updates
         patterns: ["*"]
-
-  # docs-site/ has its own pnpm-lock.yaml (sibling project, R1 dropped
-  # workspaces). Weekly + daily-security cadences apply there too.
-  - package-ecosystem: "npm"
-    directory: "/docs-site"
-    schedule:
-      interval: "weekly"
-    cooldown:
-      default-days: 7
-      semver-major-days: 14
-    commit-message:
-      prefix: "deps(docs-site)"
-    groups:
-      docs-site-non-major:
-        update-types: ["minor", "patch"]
-      docs-site-major:
-        update-types: ["major"]
-  - package-ecosystem: "npm"
-    directory: "/docs-site"
-    schedule:
-      interval: "daily"
-    cooldown:
-      default-days: 7
-    open-pull-requests-limit: 10
-    commit-message:
-      prefix: "security(docs-site)"
-    labels:
-      - "security"
-    groups:
-      docs-site-security-updates:
-        applies-to: security-updates
-        patterns: ["*"]

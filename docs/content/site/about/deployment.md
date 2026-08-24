@@ -79,7 +79,7 @@ NOT shipped:
 
 - `assets/free/*.gltf` / `*.bin` / `*.png` — bootstrapped at install time.
 - `examples/simple-rpg-*` — SimpleRPG is a test driver, not a consumer example (PRD R4).
-- `tests/`, `docs-site/`, `scripts/`, `.agent-state/` — internal.
+- `tests/`, `docs/`, `scripts/`, `.agent-state/` — internal.
 - `references/` — local upstream packs (gitignored).
 
 `pnpm test:package` audits the tarball boundary on every PR.
@@ -90,8 +90,8 @@ NOT shipped:
 
 - Root npm — weekly bulk updates (minor + major separated).
 - Root npm — daily security-updates group (`open-pull-requests-limit: 10`).
-- docs-site npm — weekly bulk.
-- docs-site npm — daily security-updates.
+- Root pnpm workspace npm — weekly bulk (including Sourcey docs).
+- Root pnpm workspace npm — daily security-updates (including Sourcey docs).
 
 Security PRs carry the `security` label so filters / auto-merge rules can pick them up.
 

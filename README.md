@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/jbcom/declarative-hex-worlds/main/packages/docs-site/public/hero.png" alt="Declarative Hex Worlds" width="540">
+<img src="https://raw.githubusercontent.com/jbcom/declarative-hex-worlds/main/docs/content/site/assets/hero.webp" alt="Declarative Hex Worlds" width="540">
 
 # declarative-hex-worlds
 
@@ -62,7 +62,7 @@ Same seed → byte-identical world, across processes and platforms.
 |---|---|
 | [`packages/declarative-hex-worlds`](./packages/declarative-hex-worlds) | **The published library.** Full README, API, CLI, bindings, tileset system. |
 | [`packages/examples`](./packages/examples) | Runnable consumer examples (3D board, 2D board) exercising the bindings + asset bootstrap end-to-end. |
-| [`packages/docs-site`](./packages/docs-site) | The [documentation site](https://jonbogaty.com/declarative-hex-worlds/) (Astro Starlight) + `llms.txt`. |
+| [`docs`](./docs) | The [Sourcey documentation site](https://jonbogaty.com/declarative-hex-worlds/) and its generated AI reference files. |
 
 **→ Start with the [library README](./packages/declarative-hex-worlds/README.md)** for
 the module map, dependency tiers, tileset declaration, CLI reference, and the full
@@ -85,14 +85,13 @@ Every engine is an **optional peer** — install only what your entrypoint needs
 Human docs live at **[jonbogaty.com/declarative-hex-worlds](https://jonbogaty.com/declarative-hex-worlds/)**.
 For AI agents ([llms.txt standard](https://llmstxt.org)):
 [llms.txt](https://jonbogaty.com/declarative-hex-worlds/llms.txt) ·
-[llms-small.txt](https://jonbogaty.com/declarative-hex-worlds/llms-small.txt) ·
 [llms-full.txt](https://jonbogaty.com/declarative-hex-worlds/llms-full.txt).
 [AGENTS.md](./AGENTS.md) covers working *on* this repo.
 
 ## Contributing
 
-`pnpm verify` runs every CI gate locally. Conventional Commits required; PRs are
-squash-merged; the coverage gate enforces 100/100/100/100. See
+`pnpm verify` runs every CI gate locally. Conventional Commits required; PRs use
+merge commits; the coverage gate enforces 100/100/100/100. See
 [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## License

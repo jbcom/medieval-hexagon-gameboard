@@ -20,7 +20,7 @@ Per `package.json#files`, the published tarball includes `examples/*.json` (the 
 
 ## Where the marketing examples live
 
-The Astro Starlight docs site at [`/features/`](https://jbcom.github.io/declarative-hex-worlds/features/) hosts screenshot-driven consumer examples (PRD F-Gallery): harbors, multi-depth cliffs, prop injection, cross-kit composition, determinism replay. Each page has a 30-line snippet + a screenshot + API cross-links.
+The Sourcey docs site at [`/features/`](https://jonbogaty.com/declarative-hex-worlds/features/) hosts screenshot-driven consumer examples: harbors, multi-depth cliffs, prop injection, cross-kit composition, determinism replay. Each page has a short snippet, a screenshot, and API cross-links.
 
 For something simpler than F-Gallery, see the [Get started guide](https://jbcom.github.io/declarative-hex-worlds/guides/getting-started/) — that's the canonical entry point for new consumers.
 

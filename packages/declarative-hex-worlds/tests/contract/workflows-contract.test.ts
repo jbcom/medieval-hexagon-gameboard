@@ -106,8 +106,8 @@ describe('workflow contract', () => {
       ['pnpm exec tsx src/cli/cli.ts bootstrap --source github --out models'],
       // browser-free visual gate remains documented as a local/full visual command
       ['pnpm test:browser:free'],
-      // docs-site build (Pages artifact uploaded for cd.yml to deploy)
-      ['pnpm docs-site:build'],
+      // Sourcey build (Pages artifact uploaded for cd.yml to deploy)
+      ['pnpm docs:build'],
       ['actions/upload-pages-artifact'],
       // dep-review job
       ['fail-on-severity: high'],
@@ -262,7 +262,7 @@ describe('workflow contract', () => {
       ['token: ${{ secrets.CI_GITHUB_TOKEN }}'],
       ['config-file: release-please-config.json'],
       ['manifest-file: .release-please-manifest.json'],
-      ['pnpm docs-site:build'],
+      ['pnpm docs:build'],
       ['actions/deploy-pages'],
     ])('includes %s', (snippet) => {
       expect(cdContent).toContain(snippet);
@@ -286,8 +286,7 @@ describe('workflow contract', () => {
       ["github.actor == 'dependabot[bot]'"],
       ["github.event.pull_request.user.login == 'dependabot[bot]'"],
       ['github.event.pull_request.head.repo.full_name == github.repository'],
-      ['gh pr review "$PR_URL" --approve'],
-      ['gh pr merge "$PR_URL" --auto --squash'],
+      ['gh pr merge "$PR_URL" --auto --merge'],
     ])('includes %s', (snippet) => {
       expect(automergeContent).toContain(snippet);
     });
@@ -299,6 +298,10 @@ describe('workflow contract', () => {
       ["github.event.pull_request.user.type == 'Bot'"],
     ])('excludes %s so release PRs stay a maintainer checkpoint', (snippet) => {
       expect(automergeContent).not.toContain(snippet);
+    });
+
+    it('does not create an approving review', () => {
+      expect(automergeContent).not.toContain('gh pr review');
     });
   });
 

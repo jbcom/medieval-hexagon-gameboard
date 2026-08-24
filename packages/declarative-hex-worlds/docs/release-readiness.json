@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-05-24T00:00:00.000Z",
-  "status": "passed",
+  "status": "warning",
   "guide": {
     "scenarioCount": 19,
     "pageCount": 19,
     "sourceImageCount": 19,
-    "visualArtifactCount": 24,
+    "visualArtifactCount": 21,
     "docsCount": 12,
     "assetCounts": {
       "unique": 404,
@@ -142,7 +142,7 @@
         "freeAssets": 61,
         "extraAssets": 0,
         "publicApis": 21,
-        "visualArtifacts": 5,
+        "visualArtifacts": 4,
         "docs": 2
       },
       {
@@ -202,7 +202,7 @@
         "freeAssets": 0,
         "extraAssets": 137,
         "publicApis": 5,
-        "visualArtifacts": 2,
+        "visualArtifacts": 1,
         "docs": 2
       },
       {
@@ -250,7 +250,7 @@
         "freeAssets": 0,
         "extraAssets": 137,
         "publicApis": 6,
-        "visualArtifacts": 2,
+        "visualArtifacts": 1,
         "docs": 2
       },
       {
@@ -849,7 +849,7 @@
       "freeAssets": 61,
       "extraAssets": 0,
       "publicApis": 21,
-      "visualArtifacts": 5,
+      "visualArtifacts": 4,
       "docs": 2,
       "title": "World design example",
       "sourceImage": {
@@ -925,18 +925,6 @@
         },
         {
           "path": "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "status": "available",
-          "source": "guide",
-          "scenarioIds": [
-            "page-09-world-design-example"
-          ],
-          "pages": [
-            9
-          ],
-          "required": true
-        },
-        {
-          "path": "tests/browser/__screenshots__/simple-rpg-fixed-completed.png",
           "status": "available",
           "source": "guide",
           "scenarioIds": [
@@ -1282,7 +1270,7 @@
       "freeAssets": 0,
       "extraAssets": 137,
       "publicApis": 5,
-      "visualArtifacts": 2,
+      "visualArtifacts": 1,
       "docs": 2,
       "title": "Units",
       "sourceImage": {
@@ -1327,18 +1315,6 @@
             16,
             17,
             18
-          ],
-          "required": true
-        },
-        {
-          "path": "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-          "status": "available",
-          "source": "guide",
-          "scenarioIds": [
-            "page-14-units"
-          ],
-          "pages": [
-            14
           ],
           "required": true
         }
@@ -1572,7 +1548,7 @@
       "freeAssets": 0,
       "extraAssets": 137,
       "publicApis": 6,
-      "visualArtifacts": 2,
+      "visualArtifacts": 1,
       "docs": 2,
       "title": "Unit combinations",
       "sourceImage": {
@@ -1616,18 +1592,6 @@
             14,
             16,
             17,
-            18
-          ],
-          "required": true
-        },
-        {
-          "path": "tests/browser/__screenshots__/simple-rpg-seeded-completed.png",
-          "status": "available",
-          "source": "guide",
-          "scenarioIds": [
-            "page-18-unit-combinations"
-          ],
-          "pages": [
             18
           ],
           "required": true
@@ -1938,8 +1902,7 @@
         "tests/browser/__screenshots__/free-guide-coasts-all-labels-rotations-water-waterless.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -2278,8 +2241,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ]
     },
     {
@@ -2462,8 +2424,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ]
     },
     {
@@ -2526,8 +2487,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ]
     },
     {
@@ -2615,8 +2575,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ]
     },
     {
@@ -2695,8 +2654,7 @@
         "tests/browser/__screenshots__/free-guide-coasts-all-labels-rotations-water-waterless.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -2984,8 +2942,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -3382,9 +3339,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ]
     },
     {
@@ -3569,9 +3524,7 @@
         "tests/browser/__screenshots__/extra-harbor-gameboard.png",
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ]
     },
     {
@@ -3659,8 +3612,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ]
     },
     {
@@ -3789,8 +3741,7 @@
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-coasts-all-labels-rotations-water-waterless.png",
         "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -3845,8 +3796,7 @@
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ]
     },
     {
@@ -4062,9 +4012,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ]
     },
     {
@@ -4174,8 +4122,7 @@
         "tests/browser/__screenshots__/extra-blueprint-biome-transition-showcase.png",
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -4346,8 +4293,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ]
     },
     {
@@ -4447,8 +4393,7 @@
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ]
     },
     {
@@ -4492,8 +4437,7 @@
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-coasts-all-labels-rotations-water-waterless.png",
         "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -4530,9 +4474,7 @@
         "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -4631,8 +4573,7 @@
         "tests/browser/__screenshots__/extra-seasonal-textures.png",
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -4664,8 +4605,7 @@
         "tests/browser/__screenshots__/extra-blueprint-biome-transition-showcase.png",
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -5444,8 +5384,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -5512,9 +5451,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ]
     },
     {
@@ -5955,8 +5892,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -6011,8 +5947,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -6044,8 +5979,7 @@
         "tests/browser/__screenshots__/extra-blueprint-biome-transition-showcase.png",
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -6225,9 +6159,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ]
     },
     {
@@ -6391,8 +6323,7 @@
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ]
     },
     {
@@ -6603,9 +6534,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ]
     },
     {
@@ -6855,8 +6784,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ]
     },
     {
@@ -6940,8 +6868,7 @@
         "tests/browser/__screenshots__/free-guide-coasts-all-labels-rotations-water-waterless.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -7011,9 +6938,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ]
     },
     {
@@ -7235,8 +7160,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ]
     },
     {
@@ -7466,9 +7390,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -7541,9 +7463,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -7616,9 +7536,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -7691,9 +7609,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -7766,9 +7682,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -7841,9 +7755,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -7916,9 +7828,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -7991,9 +7901,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -8066,9 +7974,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -8352,9 +8258,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -8427,9 +8331,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -8502,9 +8404,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -8577,9 +8477,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -8652,9 +8550,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -8727,9 +8623,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -8802,9 +8696,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -8877,9 +8769,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -8952,9 +8842,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -9904,8 +9792,7 @@
         "tests/browser/__screenshots__/free-guide-coasts-all-labels-rotations-water-waterless.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 3
     },
@@ -9981,8 +9868,7 @@
         "tests/browser/__screenshots__/free-guide-coasts-all-labels-rotations-water-waterless.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 3
     },
@@ -16032,9 +15918,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -16107,9 +15991,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -16182,9 +16064,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -16257,9 +16137,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -16332,9 +16210,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -16407,9 +16283,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -16482,9 +16356,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -16557,9 +16429,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -16632,9 +16502,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -16779,9 +16647,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -16854,9 +16720,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -16929,9 +16793,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -17004,9 +16866,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -17079,9 +16939,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -17154,9 +17012,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -17229,9 +17085,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -17304,9 +17158,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -17379,9 +17231,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -17454,9 +17304,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -17529,9 +17377,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -17604,9 +17450,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -17679,9 +17523,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -17754,9 +17596,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -17829,9 +17669,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -17904,9 +17742,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -17979,9 +17815,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -18054,9 +17888,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -18129,9 +17961,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -18204,9 +18034,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -18279,9 +18107,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -18354,9 +18180,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -18429,9 +18253,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -18504,9 +18326,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -18579,9 +18399,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -18654,9 +18472,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -18729,9 +18545,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -18806,8 +18620,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -18882,8 +18695,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -20077,9 +19889,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -20224,9 +20034,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -20299,9 +20107,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -20374,9 +20180,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -20449,9 +20253,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -20524,9 +20326,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -20599,9 +20399,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -20674,9 +20472,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -20749,9 +20545,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -20824,9 +20618,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -21583,8 +21375,7 @@
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-coasts-all-labels-rotations-water-waterless.png",
         "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -23752,8 +23543,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -23820,8 +23610,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -23888,8 +23677,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -23956,8 +23744,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -24024,8 +23811,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -24092,8 +23878,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -24160,8 +23945,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -24228,8 +24012,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -24296,8 +24079,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -24364,8 +24146,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -24432,8 +24213,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -24500,8 +24280,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -24568,8 +24347,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -24636,8 +24414,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -24704,8 +24481,7 @@
         "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -24838,8 +24614,7 @@
         "tests/browser/__screenshots__/free-gameboard-recipe.png",
         "tests/browser/__screenshots__/free-guide-coasts-all-labels-rotations-water-waterless.png",
         "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
-        "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-gameboard.png"
       ],
       "occurrences": 2
     },
@@ -24916,8 +24691,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -24994,8 +24768,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -25072,8 +24845,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -25150,8 +24922,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -25228,8 +24999,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -25306,8 +25076,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -25384,8 +25153,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -25462,8 +25230,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -25540,8 +25307,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -25614,9 +25380,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -25689,9 +25453,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -25764,9 +25526,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -25839,9 +25599,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -25914,9 +25672,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -25989,9 +25745,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -26064,9 +25818,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -26139,9 +25891,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -26214,9 +25964,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -26289,9 +26037,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -26364,9 +26110,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -26439,9 +26183,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -26514,9 +26256,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -26589,9 +26329,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -26664,9 +26402,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -26739,9 +26475,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -27027,8 +26761,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -27105,8 +26838,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -27183,8 +26915,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -27261,8 +26992,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -27339,8 +27069,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -27417,8 +27146,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -27495,8 +27223,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -27573,8 +27300,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -27651,8 +27377,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -27790,9 +27515,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -27865,9 +27588,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -27940,9 +27661,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -28015,9 +27734,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -28090,9 +27807,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -28165,9 +27880,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -28240,9 +27953,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -28315,9 +28026,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -28390,9 +28099,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -28465,9 +28172,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -28735,8 +28440,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -28811,8 +28515,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -28887,8 +28590,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -28963,8 +28665,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -29039,8 +28740,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -29178,9 +28878,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -29253,9 +28951,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -29328,9 +29024,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -29403,9 +29097,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -29478,9 +29170,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -29553,9 +29243,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -29628,9 +29316,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -29703,9 +29389,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -29778,9 +29462,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -29853,9 +29535,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -29928,9 +29608,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -30003,9 +29681,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -30078,9 +29754,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -30153,9 +29827,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -30228,9 +29900,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -30303,9 +29973,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -30378,9 +30046,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -30453,9 +30119,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -30528,9 +30192,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -30603,9 +30265,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -30678,9 +30338,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -30753,9 +30411,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -30828,9 +30484,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -30903,9 +30557,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -30978,9 +30630,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -31053,9 +30703,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -31128,9 +30776,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -31203,9 +30849,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -31278,9 +30922,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -31353,9 +30995,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -31428,9 +31068,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -31503,9 +31141,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -31578,9 +31214,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -31653,9 +31287,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -31728,9 +31360,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -31803,9 +31433,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -31878,9 +31506,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -32094,8 +31720,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -32172,8 +31797,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -32250,8 +31874,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -32328,8 +31951,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -32406,8 +32028,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -32484,8 +32105,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -32562,8 +32182,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -32640,8 +32259,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -32718,8 +32336,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -32796,8 +32413,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -32874,8 +32490,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -32952,8 +32567,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -33170,9 +32784,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -33245,9 +32857,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -33320,9 +32930,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -33395,9 +33003,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -33470,9 +33076,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -33545,9 +33149,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -33620,9 +33222,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -33695,9 +33295,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -33770,9 +33368,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -33845,9 +33441,7 @@
       "visualArtifacts": [
         "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
         "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-        "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-        "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+        "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
       ],
       "occurrences": 4
     },
@@ -34405,8 +33999,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -34481,8 +34074,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -34557,8 +34149,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -34633,8 +34224,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -34709,8 +34299,7 @@
         "tests/browser/__screenshots__/free-generated-piece-recipe.png",
         "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
         "tests/browser/__screenshots__/free-seeded-gameboard.png",
-        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-        "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+        "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
       ],
       "occurrences": 4
     },
@@ -35150,30 +34739,6 @@
       "required": true
     },
     {
-      "path": "docs/showcases/simple-rpg-fixed-completed.png",
-      "status": "available",
-      "source": "showcase",
-      "scenarioIds": [],
-      "pages": [],
-      "required": true
-    },
-    {
-      "path": "docs/showcases/simple-rpg-local-third-party-assets.png",
-      "status": "available",
-      "source": "showcase",
-      "scenarioIds": [],
-      "pages": [],
-      "required": true
-    },
-    {
-      "path": "docs/showcases/simple-rpg-seeded-completed.png",
-      "status": "available",
-      "source": "showcase",
-      "scenarioIds": [],
-      "pages": [],
-      "required": true
-    },
-    {
       "path": "NOTICE.md",
       "status": "available",
       "source": "guide",
@@ -35484,58 +35049,6 @@
         10
       ],
       "required": true
-    },
-    {
-      "path": "tests/browser/__screenshots__/simple-rpg-fixed-completed.png",
-      "status": "available",
-      "source": "guide",
-      "scenarioIds": [
-        "page-09-world-design-example"
-      ],
-      "pages": [
-        9
-      ],
-      "required": true
-    },
-    {
-      "path": "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-      "status": "available",
-      "source": "guide",
-      "scenarioIds": [
-        "page-14-units"
-      ],
-      "pages": [
-        14
-      ],
-      "required": true
-    },
-    {
-      "path": "tests/browser/__screenshots__/simple-rpg-packaged-scenario.png",
-      "status": "available",
-      "source": "screenshot",
-      "scenarioIds": [],
-      "pages": [],
-      "required": true
-    },
-    {
-      "path": "tests/browser/__screenshots__/simple-rpg-seeded-completed.png",
-      "status": "available",
-      "source": "guide",
-      "scenarioIds": [
-        "page-18-unit-combinations"
-      ],
-      "pages": [
-        18
-      ],
-      "required": true
-    },
-    {
-      "path": "tests/browser/__screenshots__/simple-rpg-simulation-report.png",
-      "status": "available",
-      "source": "screenshot",
-      "scenarioIds": [],
-      "pages": [],
-      "required": true
     }
   ],
   "references": [
@@ -35543,7 +35056,7 @@
       "id": "kaykit-medieval-free",
       "label": "KayKit Medieval Hexagon FREE",
       "path": "references/KayKit_Medieval_Hexagon_Pack_1.0_FREE",
-      "status": "available",
+      "status": "missing",
       "edition": "free",
       "purpose": "FREE source pack for guide extraction, generated assets, and manifest audits.",
       "requiredForFullReview": true
@@ -35552,7 +35065,7 @@
       "id": "kaykit-medieval-extra",
       "label": "KayKit Medieval Hexagon EXTRA",
       "path": "references/KayKit_Medieval_Hexagon_Pack_1.0_EXTRA",
-      "status": "available",
+      "status": "missing",
       "edition": "extra",
       "purpose": "Purchased local-only EXTRA pack for category and guide visual coverage.",
       "requiredForFullReview": true
@@ -35561,7 +35074,7 @@
       "id": "kenney-castle-kit",
       "label": "Kenney Castle Kit",
       "path": "references/kenney_castle-kit",
-      "status": "available",
+      "status": "missing",
       "purpose": "Third-party compatibility fixture for non-hex props, structures, and warnings.",
       "requiredForFullReview": true
     },
@@ -35569,7 +35082,7 @@
       "id": "kaykit-adventurers",
       "label": "KayKit Adventurers FREE",
       "path": "references/KayKit_Adventurers_2.0_FREE",
-      "status": "available",
+      "status": "missing",
       "purpose": "Animated actor fixture for facing, spawn, and SimpleRPG local-asset coverage.",
       "requiredForFullReview": true
     }
@@ -35580,7 +35093,7 @@
       "label": "pnpm lint",
       "command": "pnpm lint",
       "status": "passed",
-      "summary": "Biome lint over src/, tests/, scripts/, and docs-site/."
+      "summary": "Biome lint over src/, tests/, scripts/, and the Sourcey docs workspace."
     },
     {
       "id": "typecheck",
@@ -35618,11 +35131,11 @@
       "summary": "vitest-browser FREE-pack visual snapshot suite against bootstrap-fetched KayKit GLTFs under Chromium."
     },
     {
-      "id": "docs-site-build",
-      "label": "pnpm docs-site:build",
-      "command": "pnpm docs-site:build",
+      "id": "docs-build",
+      "label": "pnpm docs:build",
+      "command": "pnpm docs:build",
       "status": "passed",
-      "summary": "Astro Starlight docs site build — emits 1100+ pages, validates typedoc-generated reference + every hand-written guide."
+      "summary": "Sourcey docs build — generates compact TypeDoc module reference pages and validates every hand-written guide."
     },
     {
       "id": "npm-pack-dry-run",
@@ -35707,9 +35220,7 @@
         "visualArtifacts": [
           "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
           "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-          "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-          "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-          "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+          "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
         ]
       },
       {
@@ -35784,8 +35295,7 @@
           "tests/browser/__screenshots__/extra-blueprint-biome-transition-showcase.png",
           "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
           "tests/browser/__screenshots__/free-gameboard-recipe.png",
-          "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-gameboard.png"
         ]
       },
       {
@@ -35848,8 +35358,7 @@
           "tests/browser/__screenshots__/free-generated-piece-recipe.png",
           "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
           "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
         ]
       },
       {
@@ -35898,8 +35407,7 @@
           "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
           "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
           "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
         ]
       },
       {
@@ -35925,8 +35433,7 @@
           "tests/browser/__screenshots__/free-gameboard-recipe.png",
           "tests/browser/__screenshots__/free-guide-coasts-all-labels-rotations-water-waterless.png",
           "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
-          "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-gameboard.png"
         ]
       },
       {
@@ -35950,9 +35457,7 @@
           "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
           "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
           "tests/browser/__screenshots__/free-gameboard-recipe.png",
-          "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png",
-          "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+          "tests/browser/__screenshots__/free-seeded-gameboard.png"
         ]
       },
       {
@@ -36017,8 +35522,7 @@
           "tests/browser/__screenshots__/extra-seasonal-textures.png",
           "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
           "tests/browser/__screenshots__/free-gameboard-recipe.png",
-          "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-gameboard.png"
         ]
       },
       {
@@ -36040,8 +35544,7 @@
           "tests/browser/__screenshots__/extra-blueprint-biome-transition-showcase.png",
           "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
           "tests/browser/__screenshots__/free-gameboard-recipe.png",
-          "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-gameboard.png"
         ]
       },
       {
@@ -36221,8 +35724,7 @@
           "tests/browser/__screenshots__/free-guide-coasts-all-labels-rotations-water-waterless.png",
           "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
           "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
-          "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-gameboard.png"
         ]
       },
       {
@@ -36354,8 +35856,7 @@
           "tests/browser/__screenshots__/free-generated-piece-recipe.png",
           "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
           "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
         ]
       },
       {
@@ -36445,8 +35946,7 @@
           "tests/browser/__screenshots__/free-generated-piece-recipe.png",
           "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
           "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
         ]
       },
       {
@@ -36481,8 +35981,7 @@
           "tests/browser/__screenshots__/free-generated-piece-recipe.png",
           "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
           "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
         ]
       },
       {
@@ -36514,8 +36013,7 @@
           "tests/browser/__screenshots__/free-generated-piece-recipe.png",
           "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
           "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
         ]
       },
       {
@@ -36552,8 +36050,7 @@
           "tests/browser/__screenshots__/free-guide-coasts-all-labels-rotations-water-waterless.png",
           "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
           "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
-          "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-gameboard.png"
         ]
       },
       {
@@ -36665,8 +36162,7 @@
           "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
           "tests/browser/__screenshots__/free-gameboard-recipe.png",
           "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-          "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-gameboard.png"
         ]
       },
       {
@@ -36767,9 +36263,7 @@
         "visualArtifacts": [
           "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
           "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-          "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-          "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-          "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+          "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
         ]
       },
       {
@@ -36799,9 +36293,7 @@
           "tests/browser/__screenshots__/extra-harbor-gameboard.png",
           "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
           "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-          "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-          "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-          "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+          "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
         ]
       },
       {
@@ -36834,8 +36326,7 @@
           "tests/browser/__screenshots__/free-generated-piece-recipe.png",
           "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
           "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
         ]
       },
       {
@@ -36911,8 +36402,7 @@
           "tests/browser/__screenshots__/free-gameboard-recipe.png",
           "tests/browser/__screenshots__/free-guide-coasts-all-labels-rotations-water-waterless.png",
           "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
-          "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-gameboard.png"
         ]
       },
       {
@@ -36945,8 +36435,7 @@
           "tests/browser/__screenshots__/free-guide-page-nature-stacks-buildings-props.png",
           "tests/browser/__screenshots__/free-guide-rivers-all-labels-rotations-water-waterless.png",
           "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-hex-gameboard.png"
         ]
       },
       {
@@ -37159,8 +36648,7 @@
           "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
           "tests/browser/__screenshots__/free-gameboard-recipe.png",
           "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-          "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-gameboard.png"
         ]
       },
       {
@@ -37186,9 +36674,7 @@
         "visualArtifacts": [
           "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
           "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-          "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-          "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-          "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+          "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
         ]
       },
       {
@@ -37426,8 +36912,7 @@
           "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
           "tests/browser/__screenshots__/free-gameboard-recipe.png",
           "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-          "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-gameboard.png"
         ]
       },
       {
@@ -37451,8 +36936,7 @@
           "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
           "tests/browser/__screenshots__/free-gameboard-recipe.png",
           "tests/browser/__screenshots__/free-guide-roads-all-labels-rotations.png",
-          "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-gameboard.png"
         ]
       },
       {
@@ -37473,8 +36957,7 @@
           "tests/browser/__screenshots__/extra-blueprint-biome-transition-showcase.png",
           "tests/browser/__screenshots__/free-blueprint-builder-showcase.png",
           "tests/browser/__screenshots__/free-gameboard-recipe.png",
-          "tests/browser/__screenshots__/free-seeded-gameboard.png",
-          "tests/browser/__screenshots__/simple-rpg-fixed-completed.png"
+          "tests/browser/__screenshots__/free-seeded-gameboard.png"
         ]
       },
       {
@@ -37500,9 +36983,7 @@
         "visualArtifacts": [
           "tests/browser/__screenshots__/extra-local-all-buildings-factions-neutral-harbors.png",
           "tests/browser/__screenshots__/extra-local-all-decoration-nature-props.png",
-          "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png",
-          "tests/browser/__screenshots__/simple-rpg-local-third-party-assets.png",
-          "tests/browser/__screenshots__/simple-rpg-seeded-completed.png"
+          "tests/browser/__screenshots__/extra-local-all-units-full-accent-neutral-siege.png"
         ]
       },
       {
@@ -37573,7 +37054,32 @@
       }
     ]
   },
-  "gaps": [],
+  "gaps": [
+    {
+      "code": "reference.missing",
+      "severity": "warning",
+      "subject": "references/KayKit_Medieval_Hexagon_Pack_1.0_FREE",
+      "message": "KayKit Medieval Hexagon FREE is unavailable, so local-only visual coverage cannot run."
+    },
+    {
+      "code": "reference.missing",
+      "severity": "warning",
+      "subject": "references/KayKit_Medieval_Hexagon_Pack_1.0_EXTRA",
+      "message": "KayKit Medieval Hexagon EXTRA is unavailable, so local-only visual coverage cannot run."
+    },
+    {
+      "code": "reference.missing",
+      "severity": "warning",
+      "subject": "references/kenney_castle-kit",
+      "message": "Kenney Castle Kit is unavailable, so local-only visual coverage cannot run."
+    },
+    {
+      "code": "reference.missing",
+      "severity": "warning",
+      "subject": "references/KayKit_Adventurers_2.0_FREE",
+      "message": "KayKit Adventurers FREE is unavailable, so local-only visual coverage cannot run."
+    }
+  ],
   "releaseGateCommands": [
     "pnpm lint",
     "pnpm typecheck",
@@ -37581,7 +37087,7 @@
     "pnpm test",
     "pnpm test:coverage:enforce",
     "pnpm test:browser:free",
-    "pnpm docs-site:build",
+    "pnpm docs:build",
     "npm pack --dry-run"
   ]
 }

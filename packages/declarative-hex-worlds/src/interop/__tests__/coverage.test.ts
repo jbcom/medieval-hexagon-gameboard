@@ -250,7 +250,7 @@ describe('release-readiness coverage', () => {
     expect(markdown).toContain('`pnpm test`');
     expect(markdown).toContain('`pnpm test:coverage:enforce`');
     expect(markdown).toContain('`pnpm test:browser:free`');
-    expect(markdown).toContain('`pnpm docs-site:build`');
+    expect(markdown).toContain('`pnpm docs:build`');
     expect(markdown).toContain('`npm pack --dry-run`');
     expect(markdown).toContain('`page-15-shipyard-harbors`');
   });

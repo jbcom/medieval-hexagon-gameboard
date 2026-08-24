@@ -8,28 +8,27 @@ domain: technical
 # declarative-hex-worlds Agent Guide
 
 This repo builds `declarative-hex-worlds`, a Koota-first 2.5D gameboard
-runtime for KayKit Medieval Hexagon assets. It publishes from **repo root**
-(no `packages/` workspace — pnpm workspaces were dropped in the 1.0
-restructure, PRD Epic R). `dist/cli.js` is the package `bin` entry, built to
-`dist/` at repo root.
+runtime for KayKit Medieval Hexagon assets. It is a pnpm workspace: the
+published library lives in `packages/declarative-hex-worlds/`, while examples
+and the documentation site are private workspace packages. The library's
+`dist/cli.js` is the package `bin` entry.
 
 Use Node 22+ and pnpm 9. The workflow and package audits enforce this runtime
 contract for CI and npm consumers.
 
 ## Source Of Truth
 
-- **`docs-site/` (Astro Starlight) is the canonical human/AI-facing docs
-  site**, deployed by `cd.yml` to `https://jonbogaty.com/declarative-hex-worlds/`
-  on every push to `main`. It builds `llms.txt`, `llms-small.txt`, and
-  `llms-full.txt` via `starlight-llms-txt` for AI consumers — check those
-  first when answering questions about the public API from outside this repo.
-  Build it locally with `pnpm docs-site:build` (runs
-  `scripts/generate-cli-reference.ts` then `cd docs-site && pnpm build`); iterate
-  with `pnpm docs-site:dev`.
-- `docs/pillars/` and `docs/guides/` are **legacy but load-bearing metadata** —
-  not superseded by docs-site. `src/scenario/catalog.ts` and contract tests
+- **`docs/` (Sourcey) is the canonical human/AI-facing docs site**, deployed
+  by `cd.yml` to `https://jonbogaty.com/declarative-hex-worlds/` on every push
+  to `main`. It emits `llms.txt` and `llms-full.txt` for AI consumers — check
+  those first when answering questions about the public API from outside this
+  repo. Build it locally with `pnpm docs:build` (which generates the CLI
+  reference and TypeDoc modules); iterate with `pnpm docs:dev`.
+- `packages/declarative-hex-worlds/docs/pillars/` and
+  `packages/declarative-hex-worlds/docs/guides/` are **legacy but load-bearing
+  metadata** — not superseded by Sourcey. `src/scenario/catalog.ts` and contract tests
   reference these paths directly, so they stay tracked and current even though
-  docs-site is the canonical read surface for humans/AI. Start with
+  Sourcey is the canonical read surface for humans/AI. Start with
   `docs/pillars/05-koota-runtime-rules.md`. Use `docs/guides/` for the public
   API workflow: plan versus runtime, recipes and scenarios, guide scenario
   coverage, simulation, rendering, manifests, and external pack ingestion.
@@ -62,9 +61,8 @@ contract for CI and npm consumers.
   in `typedoc.json` must start with top-level `@module` JSDoc, and public
   symbol docs should explain lifecycle, validation, and caller responsibility
   instead of restating a name.
-- Run `pnpm docs` for TypeDoc-comment changes (writes `docs/api/`, generated
-  and gitignored). Run `pnpm docs-site:build` when docs-site content, the
-  TypeDoc reference, or the generated CLI reference change.
+- Run `pnpm docs:build` when Sourcey content, the TypeDoc reference, or the
+  generated CLI reference changes.
 
 ## Asset Rules
 
@@ -631,16 +629,14 @@ Individual commands, and when to reach for them:
   regenerate `docs/release-readiness.json` and
   `docs/guides/release-readiness.md`. Run after screenshot, docs, API, or
   package-gate changes.
-- `pnpm docs` — TypeDoc to `docs/api/` (generated, gitignored, must remain
-  untracked).
-- `pnpm docs-site:build` — regenerates the CLI reference
-  (`scripts/generate-cli-reference.ts`) then builds the Astro Starlight site
-  in `docs-site/` (its own package.json/lockfile — not a pnpm workspace
-  member). `pnpm docs-site:dev` / `pnpm docs-site:preview` for iteration.
+- `pnpm docs:build` — builds the library, regenerates the CLI reference and
+  TypeDoc modules, then builds the Sourcey site in `docs/`.
+- `pnpm docs:dev` / `pnpm docs:preview` — regenerate the CLI reference and
+  run Sourcey's local development server.
 - `pnpm showcases:promote` / `pnpm showcases:promote -- --check` — promotes
   curated screenshots from the ignored `tests/browser/__screenshots__/` output
   into the committed `docs/showcases/` gallery used by the README and
-  docs-site; `--check` verifies the committed copies already match without
+  Sourcey; `--check` verifies the committed copies already match without
   writing. Both parse PNGs through the shared quality analyzer so blank or
   visually flat images fail.
 - `pnpm bench` / `pnpm bench:warm-start` / `pnpm bench:cli-cold-start` /
@@ -702,7 +698,7 @@ Every PNG asserted by those `test:screenshots:*` scripts must also be listed in
 release-readiness ledger (`pnpm coverage:ledger`), so visual evidence cannot
 drift silently.
 
-Curated README/docs-site screenshots must be promoted out of the ignored
+Curated README/Sourcey screenshots must be promoted out of the ignored
 browser output. After `pnpm test:visual`, run `pnpm showcases:promote` to
 refresh the committed copies in `docs/showcases/` from
 `tests/browser/__screenshots__/`; run `pnpm showcases:promote -- --check` when
