@@ -7,7 +7,9 @@ export default defineConfig({
   prettyUrls: 'slash',
   repo: 'https://github.com/jbcom/declarative-hex-worlds',
   editBranch: 'main',
-  editBasePath: 'docs/content/site',
+  // Sourcey appends the configured content-relative path (`content/site/...`).
+  // Keep the repository prefix at `docs` so edit links target real sources.
+  editBasePath: 'docs',
   logo: { light: './content/site/assets/logo.svg', dark: './content/site/assets/logo.svg' },
   favicon: './content/site/assets/favicon.svg',
   // A static vector avoids generating a large per-page OG bitmap for the
