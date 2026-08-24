@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 From version 1.0.0 onward, release-please populates this file from Conventional Commits on `main`. Pre-1.0 entries below are summarized from git history.
 
+## [1.2.4](https://github.com/jbcom/declarative-hex-worlds/compare/declarative-hex-worlds@1.2.3...declarative-hex-worlds@1.2.4) (2026-08-24)
+
+
+### Bug Fixes
+
+* **security:** satisfy native SonarCloud gate ([685c688](https://github.com/jbcom/declarative-hex-worlds/commit/685c6884ce7af6154817a93bc323ea8cafd87275))
+* **security:** use native SonarCloud analysis ([a4a5c35](https://github.com/jbcom/declarative-hex-worlds/commit/a4a5c3504a3240579f713032dcc33201bc699ba8))
+
 ## [1.2.3](https://github.com/jbcom/declarative-hex-worlds/compare/declarative-hex-worlds@1.2.2...declarative-hex-worlds@1.2.3) (2026-07-27)
 
 
