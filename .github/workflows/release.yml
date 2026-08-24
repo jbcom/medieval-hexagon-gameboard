@@ -9,10 +9,6 @@ on:
 
 permissions:
   contents: read
-  id-token: write
-  # PRD G1 — actions/attest-build-provenance needs attestations:write to attach
-  # SLSA L3 build-provenance attestations to the release artifacts.
-  attestations: write
 
 concurrency:
   group: release

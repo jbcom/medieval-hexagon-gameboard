@@ -1004,5 +1004,9 @@ function countCheckStatus(
 function markdownCell(value: string): string {
   // Escape the escape character before table delimiters. Otherwise a caller
   // can supply `\\|`, which leaves a rendered Markdown table delimiter.
-  return value.replace(/\\/g, '\\\\').replace(/\|/g, '\\|').replace(/\n/g, ' ');
+  const backslash = String.fromCharCode(0x5c);
+  return value
+    .replaceAll(backslash, `${backslash}${backslash}`)
+    .replaceAll('|', `${backslash}|`)
+    .replaceAll('\n', ' ');
 }
