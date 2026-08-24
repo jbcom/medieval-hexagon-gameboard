@@ -15,6 +15,16 @@ pnpm verify
 
 Node ≥22 and pnpm ≥9 required (`packageManager: pnpm@9.15.9` is pinned).
 
+Install the local hygiene gate once after cloning:
+
+```bash
+pre-commit install
+```
+
+It checks merge markers, YAML, likely private keys, whitespace, unexpectedly
+large files, and the repository's Biome lint command. Run
+`pre-commit run --all-files` before a broad documentation or workflow change.
+
 ## Docs map
 
 `docs/content/site/` is the human-facing canonical Sourcey documentation site.

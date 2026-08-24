@@ -169,6 +169,11 @@ describe('workflow contract', () => {
       ['actions/attest-build-provenance'],
       // CycloneDX SBOM (pinned devDependency, invoked via pnpm exec)
       ['cyclonedx-npm'],
+      // release-please owns release PR creation from trusted main pushes.
+      ['googleapis/release-please-action'],
+      ['token: $' + '{{ secrets.CI_GITHUB_TOKEN }}'],
+      ['config-file: release-please-config.json'],
+      ['manifest-file: .release-please-manifest.json'],
     ])('includes %s', (snippet) => {
       expect(read(files.release)).toContain(snippet);
     });
@@ -255,23 +260,14 @@ describe('workflow contract', () => {
     it.each([
       ["NODE_VERSION: '22'"],
       ['pnpm/action-setup'],
-      ['googleapis/release-please-action'],
-      // Same pattern as every other jbcom repo: release-please runs on the
-      // org-level CI_GITHUB_TOKEN PAT so its PRs trigger downstream
-      // workflows. The GitHub App token dance was rejected (PRD A5).
-      ['token: ${{ secrets.CI_GITHUB_TOKEN }}'],
-      ['config-file: release-please-config.json'],
-      ['manifest-file: .release-please-manifest.json'],
       ['pnpm docs:build'],
       ['actions/deploy-pages'],
     ])('includes %s', (snippet) => {
       expect(cdContent).toContain(snippet);
     });
 
-    it('does not gate release-please behind GitHub App credentials', () => {
-      expect(cdContent).not.toContain('actions/create-github-app-token');
-      expect(cdContent).not.toContain('RELEASE_PLEASE_APP_CLIENT_ID');
-      expect(cdContent).not.toContain('RELEASE_PLEASE_APP_PRIVATE_KEY');
+    it('keeps release-please out of deployment', () => {
+      expect(cdContent).not.toContain('release-please-action');
     });
   });
 
