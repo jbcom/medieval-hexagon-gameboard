@@ -14,9 +14,6 @@ concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
 
-permissions:
-  contents: read
-
 env:
   NODE_VERSION: '22'
 
@@ -46,6 +43,8 @@ jobs:
   policy:
     name: CI policy
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     outputs:
       run_ci: ${{ steps.classify.outputs.run_ci }}
     steps:
