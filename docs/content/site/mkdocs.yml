@@ -1,0 +1,44 @@
+site_name: declarative-hex-worlds
+docs_dir: .
+nav:
+  - Overview: home.md
+  - Guides:
+      - Getting started: guides/getting-started.md
+      - Asset bootstrap: guides/asset-bootstrap.md
+      - Bindings: guides/bindings.md
+      - CLI reference: guides/cli-reference.md
+      - Determinism: guides/determinism.md
+      - Errors: guides/errors.md
+      - Runtime integration: guides/runtime-integration.md
+      - Recipes, scenarios, and simulation: guides/recipes-scenarios-and-simulation.md
+      - Rendering and external packs: guides/rendering-assets-and-external-packs.md
+      - Tilesets: guides/tilesets.md
+      - Testing: guides/testing.md
+      - Migration: guides/migration.md
+      - Public API: guides/public-api.md
+      - KayKit upstream layout: guides/kaykit-upstream-layout.md
+      - Guide scenario coverage: guides/guide-scenario-coverage.md
+      - Release readiness: guides/release-readiness.md
+      - Live demos: guides/live-demos.md
+  - Features:
+      - Overview: features/index.md
+      - Bridges and connectors: features/bridges-and-connectors.md
+      - Cross-kit composition: features/cross-kit-composition.md
+      - Determinism and replay: features/determinism-replay.md
+      - Harbors: features/harbors.md
+      - Movement and patrols: features/movement-and-patrols.md
+      - Multi-depth stacks: features/multi-depth-stacks.md
+      - Pieces and actors: features/pieces-and-actors.md
+      - Prop injection: features/prop-injection.md
+      - Quests: features/quests.md
+      - Tile injection: features/tile-injection.md
+  - About:
+      - Overview: about/index.md
+      - Architecture: about/architecture.md
+      - State model: about/state.md
+      - Design: about/design.md
+      - Deployment: about/deployment.md
+      - History:
+          - 1.0 stabilization: about/history/1.0-stabilization.md
+          - Post-1.0 maintenance: about/history/post-1.0-maintenance.md
+          - Render surface RFC: about/history/rfc-0001-render-surface.md

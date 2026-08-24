@@ -1,0 +1,30 @@
+:root {
+  --sourcey-brand-parchment: #f7f0df;
+  --sourcey-brand-ink: #2a2118;
+}
+
+.site-header,
+.sidebar {
+  background: color-mix(in srgb, var(--sourcey-brand-parchment) 92%, white);
+}
+
+.site-logo img {
+  max-height: 2.5rem;
+  width: auto;
+  object-fit: contain;
+}
+
+.page-content > p:first-of-type img {
+  display: block;
+  max-width: min(100%, 42rem);
+  margin: 0 auto 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 1rem 2rem rgb(42 33 24 / 18%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .site-header,
+  .sidebar {
+    background: #211a14;
+  }
+}
