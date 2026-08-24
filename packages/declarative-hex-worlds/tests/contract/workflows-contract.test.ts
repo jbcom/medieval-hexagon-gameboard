@@ -109,8 +109,6 @@ describe('workflow contract', () => {
       // Sourcey build (Pages artifact uploaded for cd.yml to deploy)
       ['pnpm docs:build'],
       ['actions/upload-pages-artifact'],
-      ['SonarSource/sonarqube-scan-action'],
-      ['SonarQube Code Analysis'],
       // dep-review job
       ['fail-on-severity: high'],
     ])('includes %s', (snippet) => {
@@ -138,6 +136,10 @@ describe('workflow contract', () => {
       ["if: ${{ vars.RUN_BROWSER_VISUALS"],
       // No silenced failures
       ['continue-on-error: true'],
+      // SonarCloud is bound through its GitHub integration. A CI scanner would
+      // duplicate automatic analysis and would require a repository secret.
+      ['SonarSource/sonarqube-scan-action'],
+      ['SONAR_TOKEN'],
     ])('excludes %s (post-vitest-migration)', (snippet) => {
       expect(read(files.ci)).not.toContain(snippet);
     });
